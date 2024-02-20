@@ -1,5 +1,12 @@
-## Dynamic-Walk-Animations-for-Roblox [DEMO]
-Half broken dynamic walk animation and footing script for R6 characters in Roblox. It is still in the demo stage and will be updated over time.
+## Dynamic-Walk-Animations-for-Roblox [0.2.1]
+Half broken dynamic walk animation and footing script for R6 characters in Roblox. 
+
+### To-do
+    * Pick between the current and previous way of finding the footing placement (Current one is more complex, thus harder to polish).
+    * Update the leg pointer.
+    * Add r15 support.
+    * Optimize and remove redundant value.
+    * Add more comments.
 
 ## DEMO VIDEO:
 
