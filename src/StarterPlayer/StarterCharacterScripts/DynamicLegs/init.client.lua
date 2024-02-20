@@ -322,9 +322,6 @@ local function UpdateLegsPositions(delta:number)
 	
 	legPositions[_legLerping] = _legOldPosition[_legLerping]:Lerp(legTargets[_legLerping], _legLerp)
 	legPositions[_legLerping] = legPositions[_legLerping] + V3new(0,sin(_legLerp*pi),0)
-	
-	tst1.Position = legPositions.right
-	tst2.Position = legTargets.right
 
 	_legOldPosition[_legLerping] = _legOldPosition[_legLerping]:Lerp(legTargets[_legLerping.."Back"], delta*3)
 
